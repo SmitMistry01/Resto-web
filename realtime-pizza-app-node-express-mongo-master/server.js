@@ -4,7 +4,6 @@ const app = express()
 const ejs = require('ejs')
 const path = require('path')
 const expressLayout = require('express-ejs-layouts')
-
 const PORT = process.env.PORT || 3300
 const mongoose = require('mongoose')
 const session = require('express-session')
